@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 import os
 
 # Load preprocessed data
-df = pd.read_csv("Data/processed_dataset.csv")
+df = pd.read_csv("Data/augmented_dataset.csv")
 
 # Constants
 SAMPLE_RATE = 50  # 50 Hz

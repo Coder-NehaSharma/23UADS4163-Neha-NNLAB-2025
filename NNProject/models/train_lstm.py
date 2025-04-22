@@ -32,5 +32,5 @@ model.fit(X_train, y_train, epochs=25, batch_size=32, validation_data=(X_test, y
 
 # Save model
 os.makedirs("models", exist_ok=True)
-model.save("models/lstm_classifier.h5")
+model.save("models/lstm_classifier.keras")
 print("Model saved to models/lstm_classifier.h5")
